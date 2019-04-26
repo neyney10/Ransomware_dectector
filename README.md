@@ -11,6 +11,10 @@ and valid english word check using PyEnchant (scan.py file)
 - Each text file contains only a meaningful text and not URLs of any kind.
 - The attacker can encrypt a single word, a sentence, part of a file or even the whole directory files.
 
+## How to run
+Run the "ransomware_detector.py" python file (and not the scan.py), supply a directory path as a command-line argument.
+- Example: './textfiles' or 'C:\\mytextfiles'"
+
 ## Dependencies
 - Python 2.7
     - pyEnchant
@@ -19,3 +23,4 @@ and valid english word check using PyEnchant (scan.py file)
 ## Supported versions
  - Windows 10 (tested on build 1809).
  - Linux Ubuntu 18.04. 
+
