@@ -13,7 +13,8 @@ and valid english word check using PyEnchant (scan.py file)
 
 ## How to run
 Run the "ransomware_detector.py" python file (and not the scan.py), supply a directory path as a command-line argument.
-- Example: './textfiles' or 'C:\\mytextfiles'"
+- Example or a path argument: './textfiles' or 'C:\\mytextfiles'"
+- Example for demo run: 'python ransomware_detector.py ./txtfiles'
 
 ## Dependencies
 - Python 2.7
