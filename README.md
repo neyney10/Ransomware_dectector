@@ -1,5 +1,10 @@
 # Very SIMPLE ransomware detector
-As part of an assignment in cyberlab of Ariel-University.
+Ransomware Detector is a simple ransomware detector for        
+an assignment of Cyber-lab SOC in Ariel-University.            
+The script scans the directory every few seconds and           
+checks if a file has being encrypted (or part of it)           
+using last-modified, checking for non-ascii characters         
+and valid english word check using PyEnchant (scan.py file)    
 ## Task Assumptions
 - The files in the directory are text files.
 - Each text file contains only letters from the ASCII table.
@@ -9,4 +14,8 @@ As part of an assignment in cyberlab of Ariel-University.
 ## Dependencies
 - Python 2.7
     - pyEnchant
-    - (os, time) from python standard library.
+    - (os, time, sys) from python standard library.
+
+## Supported versions
+ - Windows 10 (tested on build 1809).
+ - Linux Ubuntu 18.04. 
